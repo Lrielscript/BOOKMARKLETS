@@ -1,0 +1,1 @@
+javascript:document.onkeydown=e=>e.ctrlKey&&e.shiftKey&&49===e.keyCode&&[...document.querySelectorAll("body, body *")].forEach(e=>1===e.nodeType&&(e.contentEditable="true"===e.contentEditable?"false":"true"));
